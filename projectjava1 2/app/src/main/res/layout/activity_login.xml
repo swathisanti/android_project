@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.macstudent.mytabapp.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/errorMsg"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Login Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:id="@+id/textwelcome"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="UserName:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textusername"
+            />
+
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/edittextusername"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textpassword"
+            />
+
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:id="@+id/edittextpassword"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/loginbutton"
+        />
+
+</LinearLayout>
+
+
